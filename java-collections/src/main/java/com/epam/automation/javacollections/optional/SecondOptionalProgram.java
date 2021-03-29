@@ -8,7 +8,7 @@ import java.util.Stack;
  */
 public class SecondOptionalProgram {
 
-    public void doTask() {
+    public static void doTask() {
         System.out.println("Enter the number:");
         Scanner scanner = new Scanner(System.in);
         char[] digits = Integer.toString(scanner.nextInt()).toCharArray();

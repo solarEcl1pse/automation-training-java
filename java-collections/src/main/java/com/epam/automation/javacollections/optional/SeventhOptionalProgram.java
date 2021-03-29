@@ -21,7 +21,7 @@ public class SeventhOptionalProgram {
                 && closing == ']' || opening == '{' && closing == '}';
     }
 
-    public void doTask() {
+    public static void doTask() {
         System.out.println("Enter the expression with brackets:");
         Stack<Character> stack = new Stack<>();
         Scanner scanner = new Scanner(System.in);

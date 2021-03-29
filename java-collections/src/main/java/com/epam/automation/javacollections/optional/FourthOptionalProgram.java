@@ -13,7 +13,7 @@ public class FourthOptionalProgram {
 
     final static String POEM_PATH = "src/main/resources/poem.txt";
 
-    public void doTask() {
+    public static void doTask() {
         ArrayList<String> arrayList = new ArrayList<>();
         try (Scanner scanner = new Scanner(new File(POEM_PATH))) {
             while (scanner.hasNextLine()) {

@@ -13,7 +13,7 @@ public class EighthOptionalProgram {
 
     final static String ENGLISH_TEXT_PATH = "src/main/resources/english_text.txt";
 
-    public void doTask() {
+    public static void doTask() {
         HashSet<String> hashSet = new HashSet<>();
         try (Scanner scanner = new Scanner(new File(ENGLISH_TEXT_PATH))) {
             while (scanner.hasNextLine()) {

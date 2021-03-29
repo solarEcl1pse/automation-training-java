@@ -24,38 +24,14 @@ public class OptionalTaskRunner {
         Scanner scanner = new Scanner(System.in);
         int program = scanner.nextInt();
         switch (program) {
-            case 1 -> {
-                FirstOptionalProgram firstOptionalProgram = new FirstOptionalProgram();
-                firstOptionalProgram.doTask();
-            }
-            case 2 -> {
-                SecondOptionalProgram secondOptionalProgram = new SecondOptionalProgram();
-                secondOptionalProgram.doTask();
-            }
-            case 3 -> {
-                ThirdOptionalProgram thirdOptionalProgram = new ThirdOptionalProgram();
-                thirdOptionalProgram.doTask();
-            }
-            case 4 -> {
-                FourthOptionalProgram fourthOptionalProgram = new FourthOptionalProgram();
-                fourthOptionalProgram.doTask();
-            }
-            case 5 -> {
-                FifthOptionalProgram fifthOptionalProgram = new FifthOptionalProgram();
-                fifthOptionalProgram.doTask();
-            }
-            case 6 -> {
-                SixthOptionalProgram sixthOptionalProgram = new SixthOptionalProgram();
-                sixthOptionalProgram.doTask();
-            }
-            case 7 -> {
-                SeventhOptionalProgram seventhOptionalProgram = new SeventhOptionalProgram();
-                seventhOptionalProgram.doTask();
-            }
-            case 8 -> {
-                EighthOptionalProgram eighthOptionalProgram = new EighthOptionalProgram();
-                eighthOptionalProgram.doTask();
-            }
+            case 1 -> FirstOptionalProgram.doTask();
+            case 2 -> SecondOptionalProgram.doTask();
+            case 3 -> ThirdOptionalProgram.doTask();
+            case 4 -> FourthOptionalProgram.doTask();
+            case 5 -> FifthOptionalProgram.doTask();
+            case 6 -> SixthOptionalProgram.doTask();
+            case 7 -> SeventhOptionalProgram.doTask();
+            case 8 -> EighthOptionalProgram.doTask();
         }
         scanner.close();
     }

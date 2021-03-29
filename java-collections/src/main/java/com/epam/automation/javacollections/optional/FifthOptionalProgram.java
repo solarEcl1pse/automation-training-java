@@ -11,7 +11,7 @@ import static java.util.stream.Collectors.toList;
  */
 public class FifthOptionalProgram {
 
-    public void doTask() {
+    public static void doTask() {
         Random random = new Random();
         List<Integer> arrayList = Stream.generate(random::nextInt)
                 .limit(5)

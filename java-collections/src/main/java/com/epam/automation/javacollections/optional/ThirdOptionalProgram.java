@@ -10,7 +10,7 @@ public class ThirdOptionalProgram {
 
     final static String DIRECTORY_PATH = "src/main/resources";
 
-    public void doTask() {
+    public static void doTask() {
         File directory = new File(DIRECTORY_PATH);
         System.out.println(Arrays.toString(directory.list()));
     }

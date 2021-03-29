@@ -13,7 +13,7 @@ public class SixthOptionalProgram {
 
     final static String SOURCE_PATH = "src/main/resources/poem.txt";
 
-    public void doTask() {
+    public static void doTask() {
         ArrayList<String> arrayList = new ArrayList<>();
         try (Scanner scanner = new Scanner(new File(SOURCE_PATH))) {
             while (scanner.hasNextLine()) {

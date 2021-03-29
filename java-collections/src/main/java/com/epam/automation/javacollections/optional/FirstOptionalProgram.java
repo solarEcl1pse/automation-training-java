@@ -15,7 +15,7 @@ public class FirstOptionalProgram {
     final static String INPUT_FILE_PATH = "src/main/resources/poem.txt";
     final static String OUTPUT_FILE_PATH = "src/main/resources/reverse_poem.txt";
 
-    public void doTask() {
+    public static void doTask() {
         ArrayList<String> arrayList = new ArrayList<>();
         try (Scanner scanner = new Scanner(new File(INPUT_FILE_PATH))) {
             while (scanner.hasNextLine()) {
