@@ -11,7 +11,7 @@ import java.util.Scanner;
 public class ThirdMainProgram implements MainProgram {
 
     @Override
-    public void doTask() {
+    public static void doTask() {
         System.out.println("Enter the quantity of random numbers:");
         Scanner scanner = new Scanner(System.in);
         while (!scanner.hasNextInt()) {

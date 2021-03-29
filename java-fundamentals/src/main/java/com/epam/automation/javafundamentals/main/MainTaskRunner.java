@@ -21,26 +21,11 @@ public class MainTaskRunner {
         Scanner scanner = new Scanner(System.in);
         int program = scanner.nextInt();
         switch (program) {
-            case 1 -> {
-                FirstMainProgram firstMainProgram = new FirstMainProgram();
-                firstMainProgram.doTask();
-            }
-            case 2 -> {
-                SecondMainProgram secondMainProgram = new SecondMainProgram();
-                secondMainProgram.doTask();
-            }
-            case 3 -> {
-                ThirdMainProgram thirdMainProgram = new ThirdMainProgram();
-                thirdMainProgram.doTask();
-            }
-            case 4 -> {
-                FourthMainProgram fourthMainProgram = new FourthMainProgram();
-                fourthMainProgram.doTask();
-            }
-            case 5 -> {
-                FifthMainProgram fifthMainProgram = new FifthMainProgram();
-                fifthMainProgram.doTask();
-            }
+            case 1 -> FirstMainProgram.doTask();
+            case 2 -> SecondMainProgram.doTask();
+            case 3 -> ThirdMainProgram.doTask();
+            case 4 -> FourthMainProgram.doTask();
+            case 5 -> FifthMainProgram.doTask();
         }
         scanner.close();
     }

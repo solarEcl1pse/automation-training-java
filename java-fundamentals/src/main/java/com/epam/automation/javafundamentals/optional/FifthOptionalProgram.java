@@ -8,7 +8,7 @@ import com.epam.automation.javafundamentals.interfaces.OptionalProgram;
 public class FifthOptionalProgram implements OptionalProgram {
 
     @Override
-    public void doTask(Integer[] numbers) {
+    public static void doTask(Integer[] numbers) {
         int evenDigitsNumberCounter = 0;
         int equalEvenOddDigitsNumberCounter = 0;
         for (int number : numbers) {

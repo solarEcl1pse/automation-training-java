@@ -11,7 +11,7 @@ import java.util.Comparator;
 public class SecondOptionalProgram implements OptionalProgram {
 
     @Override
-    public void doTask(Integer[] numbers) {
+    public static void doTask(Integer[] numbers) {
         Arrays.sort(numbers, Comparator.comparingInt(number -> String.valueOf(Math.abs(number)).length()));
         System.out.println("Ascending:");
         for (int number : numbers) {

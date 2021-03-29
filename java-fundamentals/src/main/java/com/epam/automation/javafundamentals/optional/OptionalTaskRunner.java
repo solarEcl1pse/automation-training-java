@@ -24,34 +24,13 @@ public class OptionalTaskRunner {
         ArrayCreator arrayCreator = new ArrayCreator();
         int program = scanner.nextInt();
         switch (program) {
-            case 1 -> {
-                FirstOptionalProgram firstOptionalProgram = new FirstOptionalProgram();
-                firstOptionalProgram.doTask(arrayCreator.createArray());
-            }
-            case 2 -> {
-                SecondOptionalProgram secondOptionalProgram = new SecondOptionalProgram();
-                secondOptionalProgram.doTask(arrayCreator.createArray());
-            }
-            case 3 -> {
-                ThirdOptionalProgram thirdOptionalProgram = new ThirdOptionalProgram();
-                thirdOptionalProgram.doTask(arrayCreator.createArray());
-            }
-            case 4 -> {
-                FourthOptionalProgram fourthOptionalProgram = new FourthOptionalProgram();
-                fourthOptionalProgram.doTask(arrayCreator.createArray());
-            }
-            case 5 -> {
-                FifthOptionalProgram fifthOptionalProgram = new FifthOptionalProgram();
-                fifthOptionalProgram.doTask(arrayCreator.createArray());
-            }
-            case 6 -> {
-                SixthOptionalProgram sixthOptionalProgram = new SixthOptionalProgram();
-                sixthOptionalProgram.doTask(arrayCreator.createArray());
-            }
-            case 7 -> {
-                SeventhOptionalProgram seventhOptionalProgram = new SeventhOptionalProgram();
-                seventhOptionalProgram.doTask(arrayCreator.createArray());
-            }
+            case 1 -> FirstOptionalProgram.doTask(arrayCreator.createArray());
+            case 2 -> SecondOptionalProgram.doTask(arrayCreator.createArray());
+            case 3 -> ThirdOptionalProgram.doTask(arrayCreator.createArray());
+            case 4 -> FourthOptionalProgram.doTask(arrayCreator.createArray());
+            case 5 -> FifthOptionalProgram.doTask(arrayCreator.createArray());
+            case 6 -> SixthOptionalProgram.doTask(arrayCreator.createArray());
+            case 7 -> SeventhOptionalProgram.doTask(arrayCreator.createArray());
         }
         scanner.close();
     }

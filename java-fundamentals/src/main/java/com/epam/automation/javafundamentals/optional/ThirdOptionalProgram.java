@@ -8,7 +8,7 @@ import com.epam.automation.javafundamentals.interfaces.OptionalProgram;
 public class ThirdOptionalProgram implements OptionalProgram {
 
     @Override
-    public void doTask(Integer[] numbers) {
+    public static void doTask(Integer[] numbers) {
         int sum = 0;
         for (Integer number : numbers) {
             sum += String.valueOf(Math.abs(number)).length();

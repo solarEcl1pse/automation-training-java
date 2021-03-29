@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class SecondMainProgram implements MainProgram {
 
     @Override
-    public void doTask() {
+    public static void doTask() {
         System.out.println("Enter the arguments:");
         Scanner scanner = new Scanner(System.in);
         String args = scanner.nextLine();

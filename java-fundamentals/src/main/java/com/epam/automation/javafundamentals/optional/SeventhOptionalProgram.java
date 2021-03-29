@@ -10,7 +10,7 @@ import java.util.Arrays;
 public class SeventhOptionalProgram implements OptionalProgram {
 
     @Override
-    public void doTask(Integer[] numbers) {
+    public static void doTask(Integer[] numbers) {
         for (int number : numbers) {
             char[] digits = Integer.toString(number).toCharArray();
             Arrays.sort(digits);

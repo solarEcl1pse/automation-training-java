@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class FourthMainProgram implements MainProgram {
 
     @Override
-    public void doTask() {
+    public static void doTask() {
         System.out.println("Enter the first number:");
         Scanner scanner = new Scanner(System.in);
         while (!scanner.hasNextInt()) {

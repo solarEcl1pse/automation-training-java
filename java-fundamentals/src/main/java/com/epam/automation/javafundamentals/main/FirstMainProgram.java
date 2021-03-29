@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class FirstMainProgram implements MainProgram {
 
     @Override
-    public void doTask() {
+    public static void doTask() {
         System.out.println("Enter your name:");
         Scanner scanner = new Scanner(System.in);
         String name = scanner.next();

@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class FifthMainProgram implements MainProgram {
 
     @Override
-    public void doTask() {
+    public static void doTask() {
         System.out.println("Enter the month number from 1 to 12:");
         Scanner scanner = new Scanner(System.in);
         while (!scanner.hasNextInt()) {

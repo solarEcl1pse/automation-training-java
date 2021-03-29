@@ -11,7 +11,7 @@ import java.util.Comparator;
 public class FirstOptionalProgram implements OptionalProgram {
 
     @Override
-    public void doTask(Integer[] numbers) {
+    public static void doTask(Integer[] numbers) {
         Arrays.sort(numbers, Comparator.comparingInt(number -> String.valueOf(Math.abs(number)).length()));
         System.out.println("The shortest number:\n" + numbers[0].toString());
         System.out.println("Its length:\n" + String.valueOf(Math.abs(numbers[0])).length());

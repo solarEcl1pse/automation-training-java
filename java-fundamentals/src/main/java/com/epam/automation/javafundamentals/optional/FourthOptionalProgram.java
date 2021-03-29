@@ -10,7 +10,7 @@ import java.util.Arrays;
 public class FourthOptionalProgram implements OptionalProgram {
 
     @Override
-    public void doTask(Integer[] numbers) {
+    public static void doTask(Integer[] numbers) {
         Integer[] distinctDigitsNumber = new Integer[]{null, 10};
         for (int number : numbers) {
             char[] digits = Integer.toString(number).toCharArray();
