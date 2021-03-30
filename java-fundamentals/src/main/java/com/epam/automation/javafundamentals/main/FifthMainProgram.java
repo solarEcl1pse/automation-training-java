@@ -1,15 +1,12 @@
 package com.epam.automation.javafundamentals.main;
 
-import com.epam.automation.javafundamentals.interfaces.MainProgram;
-
 import java.util.Scanner;
 
 /**
  * 5. Ввести число от 1 до 12. Вывести на консоль название месяца, соответствующего данному числу. Осуществить проверку корректности ввода чисел.
  */
-public class FifthMainProgram implements MainProgram {
+public class FifthMainProgram {
 
-    @Override
     public static void doTask() {
         System.out.println("Enter the month number from 1 to 12:");
         Scanner scanner = new Scanner(System.in);

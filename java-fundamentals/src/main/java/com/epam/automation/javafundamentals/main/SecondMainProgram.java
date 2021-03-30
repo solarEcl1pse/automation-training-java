@@ -1,15 +1,12 @@
 package com.epam.automation.javafundamentals.main;
 
-import com.epam.automation.javafundamentals.interfaces.MainProgram;
-
 import java.util.Scanner;
 
 /**
  * 2. Отобразить в окне консоли аргументы командной строки в обратном порядке.
  */
-public class SecondMainProgram implements MainProgram {
+public class SecondMainProgram {
 
-    @Override
     public static void doTask() {
         System.out.println("Enter the arguments:");
         Scanner scanner = new Scanner(System.in);

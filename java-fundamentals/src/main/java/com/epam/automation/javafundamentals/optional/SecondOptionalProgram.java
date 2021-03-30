@@ -1,16 +1,13 @@
 package com.epam.automation.javafundamentals.optional;
 
-import com.epam.automation.javafundamentals.interfaces.OptionalProgram;
-
 import java.util.Arrays;
 import java.util.Comparator;
 
 /**
  * 2. Вывести числа в порядке возрастания (убывания) значений их длины.
  */
-public class SecondOptionalProgram implements OptionalProgram {
+public class SecondOptionalProgram {
 
-    @Override
     public static void doTask(Integer[] numbers) {
         Arrays.sort(numbers, Comparator.comparingInt(number -> String.valueOf(Math.abs(number)).length()));
         System.out.println("Ascending:");

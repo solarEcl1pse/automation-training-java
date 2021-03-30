@@ -1,13 +1,10 @@
 package com.epam.automation.javafundamentals.optional;
 
-import com.epam.automation.javafundamentals.interfaces.OptionalProgram;
-
 /**
  * 6. Найти число, цифры в котором идут в строгом порядке возрастания. Если таких чисел несколько, найти первое из них.
  */
-public class SixthOptionalProgram implements OptionalProgram {
+public class SixthOptionalProgram {
 
-    @Override
     public static void doTask(Integer[] numbers) {
         for (int number : numbers) {
             char[] digits = Integer.toString(number).toCharArray();

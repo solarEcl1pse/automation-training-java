@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class ArrayCreator {
 
-    public Integer[] createArray() {
+    public static Integer[] createArray() {
         System.out.println("Enter the quantity of numbers:");
         Scanner scanner = new Scanner(System.in);
         while (!scanner.hasNextInt()) {

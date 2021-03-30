@@ -1,13 +1,10 @@
 package com.epam.automation.javafundamentals.optional;
 
-import com.epam.automation.javafundamentals.interfaces.OptionalProgram;
-
 /**
  * 3. Вывести на консоль те числа, длина которых меньше (больше) средней длины по всем числам, а также длину.
  */
-public class ThirdOptionalProgram implements OptionalProgram {
+public class ThirdOptionalProgram {
 
-    @Override
     public static void doTask(Integer[] numbers) {
         int sum = 0;
         for (Integer number : numbers) {

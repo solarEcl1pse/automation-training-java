@@ -1,15 +1,12 @@
 package com.epam.automation.javafundamentals.optional;
 
-import com.epam.automation.javafundamentals.interfaces.OptionalProgram;
-
 import java.util.Arrays;
 
 /**
  * 4. Найти число, в котором количество различных цифр минимально. Если таких чисел несколько, найти первое из них.
  */
-public class FourthOptionalProgram implements OptionalProgram {
+public class FourthOptionalProgram {
 
-    @Override
     public static void doTask(Integer[] numbers) {
         Integer[] distinctDigitsNumber = new Integer[]{null, 10};
         for (int number : numbers) {

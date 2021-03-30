@@ -1,15 +1,12 @@
 package com.epam.automation.javafundamentals.main;
 
-import com.epam.automation.javafundamentals.interfaces.MainProgram;
-
 import java.util.Scanner;
 
 /**
  * 4. Ввести целые числа как аргументы командной строки, подсчитать их сумму (произведение) и вывести результат на консоль.
  */
-public class FourthMainProgram implements MainProgram {
+public class FourthMainProgram {
 
-    @Override
     public static void doTask() {
         System.out.println("Enter the first number:");
         Scanner scanner = new Scanner(System.in);

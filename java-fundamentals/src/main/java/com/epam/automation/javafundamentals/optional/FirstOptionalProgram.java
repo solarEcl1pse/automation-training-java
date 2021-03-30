@@ -1,16 +1,13 @@
 package com.epam.automation.javafundamentals.optional;
 
-import com.epam.automation.javafundamentals.interfaces.OptionalProgram;
-
 import java.util.Arrays;
 import java.util.Comparator;
 
 /**
  * 1. Найти самое короткое и самое длинное число. Вывести найденные числа и их длину.
  */
-public class FirstOptionalProgram implements OptionalProgram {
+public class FirstOptionalProgram {
 
-    @Override
     public static void doTask(Integer[] numbers) {
         Arrays.sort(numbers, Comparator.comparingInt(number -> String.valueOf(Math.abs(number)).length()));
         System.out.println("The shortest number:\n" + numbers[0].toString());

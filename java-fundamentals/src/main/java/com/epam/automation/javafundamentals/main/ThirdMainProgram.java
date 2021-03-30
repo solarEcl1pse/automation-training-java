@@ -1,16 +1,13 @@
 package com.epam.automation.javafundamentals.main;
 
-import com.epam.automation.javafundamentals.interfaces.MainProgram;
-
 import java.util.Random;
 import java.util.Scanner;
 
 /**
  * 3. Вывести заданное количество случайных чисел с переходом и без перехода на новую строку.
  */
-public class ThirdMainProgram implements MainProgram {
+public class ThirdMainProgram {
 
-    @Override
     public static void doTask() {
         System.out.println("Enter the quantity of random numbers:");
         Scanner scanner = new Scanner(System.in);

@@ -21,16 +21,15 @@ public class OptionalTaskRunner {
                 "6. Найти число, цифры в котором идут в строгом порядке возрастания. Если таких чисел несколько, найти первое из них.\n" +
                 "7. Найти число, состоящее только из различных цифр. Если таких чисел несколько, найти первое из них.");
         Scanner scanner = new Scanner(System.in);
-        ArrayCreator arrayCreator = new ArrayCreator();
         int program = scanner.nextInt();
         switch (program) {
-            case 1 -> FirstOptionalProgram.doTask(arrayCreator.createArray());
-            case 2 -> SecondOptionalProgram.doTask(arrayCreator.createArray());
-            case 3 -> ThirdOptionalProgram.doTask(arrayCreator.createArray());
-            case 4 -> FourthOptionalProgram.doTask(arrayCreator.createArray());
-            case 5 -> FifthOptionalProgram.doTask(arrayCreator.createArray());
-            case 6 -> SixthOptionalProgram.doTask(arrayCreator.createArray());
-            case 7 -> SeventhOptionalProgram.doTask(arrayCreator.createArray());
+            case 1 -> FirstOptionalProgram.doTask(ArrayCreator.createArray());
+            case 2 -> SecondOptionalProgram.doTask(ArrayCreator.createArray());
+            case 3 -> ThirdOptionalProgram.doTask(ArrayCreator.createArray());
+            case 4 -> FourthOptionalProgram.doTask(ArrayCreator.createArray());
+            case 5 -> FifthOptionalProgram.doTask(ArrayCreator.createArray());
+            case 6 -> SixthOptionalProgram.doTask(ArrayCreator.createArray());
+            case 7 -> SeventhOptionalProgram.doTask(ArrayCreator.createArray());
         }
         scanner.close();
     }

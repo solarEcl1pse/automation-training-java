@@ -1,13 +1,10 @@
 package com.epam.automation.javafundamentals.optional;
 
-import com.epam.automation.javafundamentals.interfaces.OptionalProgram;
-
 /**
  * 5. Найти количество чисел, содержащих только четные цифры, а среди оставшихся — количество чисел с равным числом четных и нечетных цифр.
  */
-public class FifthOptionalProgram implements OptionalProgram {
+public class FifthOptionalProgram {
 
-    @Override
     public static void doTask(Integer[] numbers) {
         int evenDigitsNumberCounter = 0;
         int equalEvenOddDigitsNumberCounter = 0;
