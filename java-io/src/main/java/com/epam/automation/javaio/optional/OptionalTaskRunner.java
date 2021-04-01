@@ -37,14 +37,14 @@ public class OptionalTaskRunner {
             case 3 -> ThirdOptionalProgram.doTask();
             case 4 -> FourthOptionalProgram.doTask();
             case 5 -> FifthOptionalProgram.doTask();
-            case 6 -> SixthOptionalProgram.doTask(); //toDo
+            case 6 -> SixthOptionalProgram.doTask();
             case 7 -> SeventhOptionalProgram.doTask();
-            case 8 -> EighthOptionalProgram.doTask(); //toDo
+            case 8 -> EighthOptionalProgram.doTask();
             case 9 -> NinthOptionalProgram.doTask();
             case 10 -> TenthOptionalProgram.doTask();
-            case 11 -> EleventhOptionalProgram.doTask(); //toDo
-            case 12 -> TwelfthOptionalProgram.doTask(); //toDo
-            case 13 -> ThirteenthOptionalProgram.doTask(); //toDo
+            case 11 -> EleventhOptionalProgram.doTask();
+            case 12 -> TwelfthOptionalProgram.doTask();
+            case 13 -> ThirteenthOptionalProgram.doTask();
         }
         scanner.close();
     }
